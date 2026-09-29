@@ -1,0 +1,92 @@
+# Flight Booking Application - Test Plan
+
+## 1. Objective
+
+Verify that the flight booking application functions according to the defined requirements and identify, document, and retest defects.
+
+## 2. Scope
+
+**In Scope**
+
+* Registration and Login
+* Forgot/Change Password
+* Change Email
+* Flight Search and Autocomplete
+* Search Filters and Fare Slider
+* Passenger Fare and Tax Calculation
+* Currency and Travel Date Display
+* Dashboard and Notifications
+* Previously fixed functionality
+
+**Out of Scope**
+
+* Performance/load testing
+* Security penetration testing
+* Automated testing
+* Third-party service internals
+
+## 3. Testing Approach
+
+Testing will follow:
+
+**Requirements → Test Scenarios → Test Cases → Execution → Defect Reporting → Retest → Regression**
+
+## 4. Testing Types
+
+* **Smoke Testing:** Check whether the build is stable enough for detailed testing.
+* **Functional Testing:** Verify features against requirements.
+* **Exploratory Testing:** Explore functionality beyond predefined test cases.
+* **Retesting:** Verify that reported defects have been fixed.
+* **Regression Testing:** Ensure changes and fixes have not broken existing functionality.
+* **UAT:** Confirm key functionality meets business/user requirements.
+
+## 5. Test Data
+
+* Valid/invalid user details
+* Password combinations
+* Test email and phone numbers
+* Origin/destination cities and airport codes
+* Travel dates
+* Adult, child, and infant passenger combinations
+* Flight filter values
+
+## 6. Defect Management
+
+Failed test cases will be documented as defects with:
+
+* Defect ID
+* Related Test Case ID
+* Steps to Reproduce
+* Expected Result
+* Actual Result
+* Severity
+* Priority
+* Status
+
+**Defect Lifecycle:**
+
+**Open → Assigned → Fixed → Retest → Closed / Reopened**
+
+## 7. Entry Criteria
+
+* Testable build is available
+* QA/Test environment is accessible
+* Requirements are available
+* Required test data is available
+
+## 8. Exit Criteria
+
+* Planned test cases executed
+* Defects documented
+* Fixed defects retested
+* Required regression testing completed
+* Test results recorded
+
+## 9. Deliverables
+
+* Test Plan
+* Test Scenarios
+* Test Cases
+* Test Execution/Retest Report
+* Bug Reports
+* Regression Results
